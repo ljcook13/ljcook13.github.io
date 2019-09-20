@@ -30,8 +30,8 @@ header, footer, footer a {
 }
 
 header img {
-    width: auto; /* */;
-    height: auto;
+    width: 250px; /* */;
+    height: 300px;
     float: right;
 }
 
