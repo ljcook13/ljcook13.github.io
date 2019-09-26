@@ -1,0 +1,27 @@
+body {
+    font-family: 'Dancing Script', cursive; 
+}
+
+header h1 {
+    font-size: 3.0rem; /* x.xrem */;
+    text-align: center;
+    color: teal;
+    border-bottom: 1px dashed turquoise;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: teal;
+}
+
+main li {
+    font-size: 1.0rem;
+    color: turquoise;
+}
+
+main img {
+    width: 250px; /* */;
+    height: 400px;
+    float: center;
+}
