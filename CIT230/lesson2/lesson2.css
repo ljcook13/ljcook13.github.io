@@ -6,7 +6,6 @@ main{
     display: grid;
     grid-template-columns: 350px 350px 350px;
     grid-template-rows: 200px 200px 200px 200px 200px 200px;
-    grid-gap: 25px
 }
 
 header h1 {
