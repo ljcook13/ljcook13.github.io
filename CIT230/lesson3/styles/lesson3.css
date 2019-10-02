@@ -1,5 +1,10 @@
-header h1 {
+header {
     font-size: 48px;
     text-align: center;
-    color: lightskyblue;
+    color: darkgoldenrod;
+}
+
+main {
+    font-size: 30px;
+    text-align: center;
 }
