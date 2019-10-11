@@ -1,4 +1,5 @@
 body {
+    font-family: 'Shadows Into Light', cursive;
     display: flex;
     display: block;
     color: black;
@@ -41,6 +42,8 @@ li {
 
 main {
     text-align: center;
+    font-size: 40px;
+    color: dodgerblue;
 }
 
 *{
@@ -56,6 +59,22 @@ img {
 
 div {
     margin-bottom: 10px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: whitesmoke;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+section li {
+    background-color: lightgrey;
+    display: flex;
+    border: dotted;
+    padding: 0.75rem;
+    margin: 1rem;
 }
 
 nav {
