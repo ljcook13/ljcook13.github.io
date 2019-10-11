@@ -1,0 +1,40 @@
+body {
+    line-height: 32px;
+    text-align: center; 
+    color: black;
+}
+
+h1 {
+    font-size: 75px;
+    padding-top: 25px;
+    color: whitesmoke;
+}
+
+header {
+    height: 100px;
+}
+
+header, footer {
+    background-color: skyblue;
+    background-size: 48px;
+}
+
+nav {
+    float: left;
+    margin: 10px 5px;
+    list-style: none;
+    padding-left: 0;
+}
+
+main {
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    float: left;
+}
