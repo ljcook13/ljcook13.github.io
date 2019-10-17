@@ -48,3 +48,13 @@ console.log(currentDateString);
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
+
+// create five-day forecast
+let day1, day2, day3, day4, day5;
+
+if (weekDayNumber < 6) {
+    day1 = daysOfWeek[weekDayNumber + 1];
+    document.getElementById("day1").innerHTML = day1;
+    day2 = daysOfWeek[weekDayNumber + 2];
+    document.getElementById("day2").innerHTML = day2;
+}
