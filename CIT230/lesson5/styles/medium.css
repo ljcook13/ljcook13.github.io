@@ -18,6 +18,7 @@
     }
     #forecast {
         display: block;
+        margin-top: 300px;
     }
     table {
         padding: 0;

@@ -1,6 +1,5 @@
 body {
     font-family: 'Shadows Into Light', cursive;
-    display: flex;
     display: block;
     color: black;
 }
@@ -44,11 +43,6 @@ main {
     text-align: center;
     font-size: 40px;
     color: dodgerblue;
-}
-
-*{
-    margin: 0;
-    padding: 0;
 }
 
 img {
@@ -108,10 +102,6 @@ nav {
 
 .responsive li {
 	display: block;
-}
-
-iframe {
-    float: right;
 }
 
 table, th, td {
