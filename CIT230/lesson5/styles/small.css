@@ -71,6 +71,10 @@ section li {
     margin: 1rem;
 }
 
+.hidden {
+    display: none;
+}
+
 nav {
 	margin: 0 auto;
 	max-width: 760px;
@@ -115,3 +119,8 @@ table, th, td {
 #map {
     display: none;
 }
+
+#pancake {
+    font-size: 20px;
+}
+

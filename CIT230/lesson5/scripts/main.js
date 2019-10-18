@@ -2,7 +2,7 @@ var currentDate = new Date();
 var currentDateString;
 
 // get day of week
-var weekDayNumber = currentDate.getDay();
+var weekDayNumber = currentDate.getDay()
 
 var daysOfWeek = [
     'Sunday',
@@ -66,3 +66,9 @@ for (let i = 1; i < 6; i++) {
 
     element.innerHTML = daysOfWeek[currentDay];
 }
+
+// show/hide pancake
+if (weekDayNumber === 5) {
+    document.getElementById('pancake').removeAttribute("class", "hidden");
+}
+
