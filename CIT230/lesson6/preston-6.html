@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston Idaho</title>
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/cit230/lesson4/images/sun.jpg">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <img src="/cit230/lesson4/images/sun.jpg" alt="Sun logo">
+        <h1>Weather Mania</h1>
+        <div class="m">Be the sunshine to someone elses rainy day.</div>
+    </header>
+    <nav>
+        <ul class="navigation"> 
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="active" class="active"><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul> 
+    </nav>
+    <main>
+        <h2>Preston</h2>
+            <section id="pancake" class="hidden">
+                <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+            </section>
+            <div class="herodiv">
+            <img src="/cit230/lesson5/images/45249443212_275f88371f_b.jpg"> <br>
+            <section class="stats">
+                <h3>Weather Summary</h3>
+                <p>Currently: Cloudy</p>
+                <p>High: 60&deg;F</p>
+                <p>Low: 32&deg;F</p>
+                <p>Humidity: 20%</p>
+                <p>Wind Speed: 5mph</p>
+            </section>
+        </div>
+        <section id="forecast">
+            <h3>High Temperature Forecast</h3>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th id="day1">Day 1</th>
+                    <th id="day2">Day 2</th>
+                    <th id="day3">Day 3</th>
+                    <th id="day4">Day 4</th>
+                    <th id="day5">Day 5</th>
+                </tr>
+                <tr>
+                    <td>Forecast</td>
+                    <td id="temp1">60&deg;F</td>
+                    <td id="temp2">68&deg;F</td>
+                    <td id="temp3">56&deg;F</td>
+                    <td id="temp4">52&deg;F</td>
+                    <td id="temp5">44&deg;F</td>
+                </tr>
+            </table>
+        </section>
+        <section id="article">
+            <h3>A Hobby leads to a New Business</h3>
+            <p>The new county commissioner and his wife, Boyd and Cindy Burbank, have made a new business called "iLaserIT." This new business consists mostly of engravings on any type of object. It has been a pretty busy couple of months for our commissioner.</p>
+            <img src="images/iLaserIT.jpg">
+        </section> <br>
+    </main>
+    <footer>
+        <div id="contact">
+            <h3>Contact Information</h3>
+            <p>Address: 514 Preston Rd. Preston, ID 84123</p>
+            <p>Email: cook13lauren@gmail.com</p>
+            <p>Phone Number: (702) 498-5948</p>
+        </div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.726282523094!2d-111.91534459120224!3d42.09980531205498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1571072016239!5m2!1sen!2sus" width="200" height="150" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div id="copy">
+            &copy; Weather Mania | Lauren Cook <br>
+            <span id="currentDate"></span> 
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
