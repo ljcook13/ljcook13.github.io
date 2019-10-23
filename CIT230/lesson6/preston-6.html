@@ -34,14 +34,23 @@
                 <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
             </section>
             <div class="herodiv">
-            <img src="/cit230/lesson5/images/45249443212_275f88371f_b.jpg"> <br>
+           <img src="/cit230/lesson5/images/45249443212_275f88371f_b.jpg"> <br>
             <section class="stats">
                 <h3>Weather Summary</h3>
-                <p>Currently: Cloudy</p>
-                <p>High: 60&deg;F</p>
-                <p>Low: 32&deg;F</p>
-                <p>Humidity: 20%</p>
-                <p>Wind Speed: 5mph</p>
+                <section id="weatherSummary">
+                    <div>
+                        <span>Current Temperature: </span>
+                        <span id="currentTemp"></span>
+                    </div>
+                    <div>
+                        <span>Wind Speed: </span>
+                        <span id="windSpeed"></span>
+                    </div>
+                    <div>
+                        <span>Windchill: </span>
+                        <span id="windChill"></span>
+                    </div>
+                </section>
             </section>
         </div>
         <section id="forecast">
@@ -88,5 +97,6 @@
     </footer>
     <script src="scripts/main.js"></script>
     <script src="/cit230/lesson6/scripts/font.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

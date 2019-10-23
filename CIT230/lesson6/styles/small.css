@@ -124,3 +124,8 @@ table, th, td {
     font-size: 20px;
 }
 
+#weatherSummary {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
