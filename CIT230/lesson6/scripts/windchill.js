@@ -1,4 +1,4 @@
-let currentTemp = 47;
+let currentTemp = 41;
 let windSpeed = 8; 
 let windChill =0;
 
