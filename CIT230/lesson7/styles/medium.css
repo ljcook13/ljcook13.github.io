@@ -1,0 +1,28 @@
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+        display: flex;
+        background-color: dodgerblue;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: whitesmoke;
+    }
+    #map {
+        display: block;
+    }
+    #forecast {
+        display: block;
+        margin-top: 300px;
+    }
+    table {
+        padding: 0px;
+        margin-left: 350px;
+    }
+}
+    
