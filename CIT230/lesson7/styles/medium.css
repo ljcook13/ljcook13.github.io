@@ -13,6 +13,11 @@
 	.navigation li a {
 		color: whitesmoke;
     }
+
+    #gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
     #map {
         display: block;
     }
