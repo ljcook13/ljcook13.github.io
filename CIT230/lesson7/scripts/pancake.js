@@ -1,6 +1,3 @@
-var currentDate = new Date();
-var currentDateString;
-
 // get day of week
 var weekDayNumber = currentDate.getDay()
 
@@ -42,9 +39,7 @@ currentDateString += ' ' + currentDate.getFullYear();
 
 document.getElementById('currentDate').innerHTML = currentDateString;
 
-//DEBUG:
-console.log(currentDateString);
-
-function toggleMenu() {
-    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+// show/hide pancake
+if (weekDayNumber === 5) {
+    document.getElementById('pancake').removeAttribute("class", "hidden");
 }
