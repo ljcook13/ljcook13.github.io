@@ -8,6 +8,10 @@ table, tr, th, td {
     padding: 8px;
 }
 
+table {
+    box-shadow: 10px 5px 10px #628ca6;
+}
+
 td {
     text-align: center;
 }
