@@ -1,0 +1,140 @@
+body {
+    font-family: 'Shadows Into Light', cursive;
+    display: block;
+    color: black;
+}
+
+h1 {
+    font-size: 75px;
+    padding-top: 25px;
+    color: whitesmoke;
+}
+
+header {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header, footer {
+    background-color: skyblue;
+    background-size: 48px;
+}
+
+footer {
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    margin: 10px 5px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    display: inline;
+}
+
+main {
+    text-align: center;
+    font-size: 40px;
+    color: dodgerblue;
+}
+
+img {
+    float: left;
+    height: auto;
+    width: 75px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+.m {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: whitesmoke;
+	margin-left: 20px;
+	font-size: .9rem;
+}
+
+section li {
+    background-color: lightgrey;
+    display: flex;
+    border: dotted;
+    padding: 0.75rem;
+    margin: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color:dodgerblue;
+}
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	color: whitesmoke;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color:whitesmoke;
+	background-color: dodgerblue;
+	font-weight: 700;
+}
+
+.responsive li {
+	display: block;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+#forecast {
+    display: none;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#gallery figure {
+    border: 1px solid black;
+}
+
+#map {
+    display: none;
+}
+
+#pancake {
+    font-size: 20px;
+}
+
+#weatherSummary {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
