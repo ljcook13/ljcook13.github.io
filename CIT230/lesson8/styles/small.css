@@ -28,6 +28,15 @@ footer {
     text-align: center;
 }
 
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 25px;
+}
+
 ul {
     text-align: center;
     margin: 10px 5px;
