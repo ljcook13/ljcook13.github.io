@@ -39,4 +39,6 @@ tr:nth-child(even) {
     color: white;
 }
 
-
+tfoot {
+    font-size: 10px;
+}
