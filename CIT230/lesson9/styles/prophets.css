@@ -1,4 +1,40 @@
+header {
+    color: cadetblue;
+}
+
+footer {
+    color: cadetblue;
+}
+
 body {
-    color: cornflowerblue;
     text-align: center;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+article {
+    background-color: cadetblue;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+@media only screen and (min-width: 32.5em) {
+    section {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
