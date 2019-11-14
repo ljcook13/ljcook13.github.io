@@ -6,15 +6,23 @@ header {
 footer {
     color: cadetblue;
     font-weight: bolder;
+    padding: 10px;
 }
 
 body {
     text-align: center;
 }
 
+main {
+    border: 1px solid black;
+    background-color: lightyellow;
+    padding: 10px;
+}
+
 img {
     max-width: 200px;
     max-height: 200px;
+    padding: 5px;
 }
 
 section {
