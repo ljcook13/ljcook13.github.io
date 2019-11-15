@@ -11,20 +11,22 @@ h1 {
     color: whitesmoke;
 }
 
+main {
+    margin: 20px;
+}
+
 section {
     display: grid;
     grid-template-columns: 1fr;
     border: 1px solid black;
-    margin: 10px;
     padding: 5px;
     background-color: dodgerblue;
 }
 
 img {
-    min-width: 200px;
-    min-height: 100px;
-    margin-left: 60px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 150px;
 }
 
 h2 {
@@ -68,29 +70,25 @@ article {
     border: 1px solid black;
     margin: 5px;
     text-align: center;
-    background-color: lightyellow;
+    background-color: wheat;
 }
 
 header {
+    background-color: skyblue;
+    background-size: 48px;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-header, footer {
-    background-color: skyblue;
-    background-size: 48px;
-}
-
 footer {
-    height: auto;
-    margin-top: 20px;
+    background-color: skyblue;
     text-align: center;
     color: whitesmoke;
 }
 
-img {
+#sunlogo {
     float: left;
     height: auto;
     width: 75px;
@@ -113,17 +111,21 @@ nav {
 	max-width: 760px;
 	background-color:dodgerblue;
 }
+
 .navigation {
 	list-style: none;
 	text-align: center;
 	padding: 0;
 }
+
 .navigation li:first-child {
 	display: block;
 }
+
 .navigation li {
 	display: none;
 }
+
 .navigation a {
 	display: block;
 	color: whitesmoke;
@@ -131,10 +133,19 @@ nav {
 	text-align: center;
 	text-decoration: none;
 }
+
 .navigation a:hover {
 	color:whitesmoke;
 	background-color: dodgerblue;
 	font-weight: 700;
+}
+
+#copy {
+    color: navy;
+}
+
+#currentDate {
+    color: navy;
 }
 
 #map {
