@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Mania</title>
+    <link rel="shortcut icon" href="images/sun.jpg">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header>
+        <img src="images/sun.jpg" alt="sun logo" id="sunlogo">
+        <h1>Weather Mania</h1>
+        <div class="m">Be the sunshine to someone elses rainy day.</div>
+    </header>
+    <nav>
+        <ul class="navigation"> 
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="preston-9.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-9.html">Gallery</a></li>
+        </ul> 
+    </nav>
+    <main>
+        <section class="towns">
+            <article>
+                <h2>Fish Haven</h2>
+                <h3 id="fishHavenMotto"></h3> 
+                <label>Year Founded: 
+                    <span id="fishHavenYearFounded"></span>
+                </label> 
+                <label>Population:
+                    <span id="fishHavenPopulation"></span>
+                </label> 
+                <label>Annual Rain Fall:
+                    <span id="fishHavenRainFall"></span>
+                </label>
+                <p>
+                    <img src="" alt="Fish Haven" id="fishHavenImage">
+                </p>
+            </article>
+            <article>
+                <h2>Preston</h2> 
+                <h3 id="prestonMotto"></h3>
+                <label>Year Founded:
+                    <span id="prestonYearFounded"></span>
+                </label> 
+                <label>Population:
+                    <span id="prestonPopulation"></span>
+                </label>
+                <label>Annual Rain Fall:
+                    <span id="prestonRainFall"></span>
+                </label>
+                <p>
+                    <img src="" alt="Preston" id="prestonImage">
+                </p> 
+            </article>
+            <article>
+                <h2>Soda Springs</h2> 
+                <h3 id="sodaSpringsMotto"></h3>
+                <label>Year Founded:
+                    <span id="sodaSpringsYearFounded"></span>
+                </label> 
+                <label>Population:
+                    <span id="sodaSpringsPopulation"></span>
+                </label>
+                <label>Annual Rain Fall:
+                    <span id="sodaSpringsRainFall"></span>
+                </label>
+                <p>
+                    <img src="" alt="Soda Springs" id="sodaSpringsImage">
+                </p> 
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div id="contact">
+            <h3>Contact Information</h3>
+            <p>Address: 514 Preston Rd. Preston, ID 84123</p>
+            <p>Email: cook13lauren@gmail.com</p>
+            <p>Phone Number: (702) 498-5948</p>
+        </div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.726282523094!2d-111.91534459120224!3d42.09980531205498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1571072016239!5m2!1sen!2sus" width="200" height="150" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div id="copy">
+            &copy; Weather Mania | Lauren Cook <br>
+            <span id="currentDate"></span> 
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/font.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
