@@ -1,5 +1,6 @@
 // get day of week
-var weekDayNumber = currentDate.getDay()
+var today = new Date();
+var weekDayNumber = today.getDay()
 
 var daysOfWeek = [
     'Sunday',
@@ -13,31 +14,7 @@ var daysOfWeek = [
 
 var weekDay = daysOfWeek[weekDayNumber];
 currentDateString = weekDay + ', ';
-currentDateString = currentDateString + currentDate.getDate();
-
-var months = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December'
-];
-
-var monthNumber = currentDate.getMonth();
-
-var month = months[monthNumber];
-
-currentDateString += ' ' + month;
-currentDateString += ' ' + currentDate.getFullYear();
-
-document.getElementById('currentDate').innerHTML = currentDateString;
+currentDateString = currentDateString + today.getDate();
 
 // create five-day forecast
 let currentDay = weekDayNumber;
@@ -55,4 +32,51 @@ for (let i = 1; i < 6; i++) {
     const element = document.getElementById(`day${i}`);
 
     element.innerHTML = daysOfWeek[currentDay];
+}
+
+const apiForecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=f85f8b058eaa7f5d5efddebe56a43f9a&units=imperial';
+
+fetch(apiForecastURL)
+    .then(
+        (response) => response.json()
+    )
+    .then(
+        (forecasts) => {
+            let nextDate = new Date();
+            nextDate.setDate(nextDate.getDate() + 1);
+            let dateString = getDateString(nextDate);
+            let hourString = '18:00:00';
+            let counter = 1;
+
+            //loop through results
+            forecasts.list.forEach(
+                (forecast) => {
+                    if (forecast.dt_txt.includes(dateString) && 
+                        forecast.dt_txt.includes(hourString)) {
+
+                        const element = document.getElementById(`temp${counter}`);
+                        element.innerHTML = forecast.main.temp + '&deg;';
+
+                        counter += 1;
+                        nextDate.setDate(nextDate.getDate() + 1);
+                        dateString = getDateString(nextDate);
+                    }
+            
+                }
+            );
+        }
+    );
+
+function getDateString(date) {
+    let dateString = 
+    //get full year
+    date.getFullYear() + '-' +
+
+    //get month
+    date.getMonth() + '-' +
+
+    //get day
+    date.getDate();
+
+    return dateString;
 }

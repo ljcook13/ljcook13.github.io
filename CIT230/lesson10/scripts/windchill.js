@@ -1,17 +1,30 @@
-let currentTemp = 41;
-let windSpeed = 8; 
-let windChill =0;
+const apiWeatherURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=f85f8b058eaa7f5d5efddebe56a43f9a&units=imperial';
 
-if (currentTemp < 50 && windSpeed > 3) {
-    windChill = 35.74 + 0.6215 * currentTemp - 35.75 * Math.pow(windSpeed, 0.16) + 0.4275 * currentTemp * Math.pow(windSpeed, 0.16);
-}
+fetch(apiWeatherURL)
+    .then(
+        (response) => response.json()
+    )
+    .then(
+        (currentWeather) => {
+            //DEBUG:
+            console.log(currentWeather);
 
-document.getElementById('currentTemp').innerHTML = currentTemp + '&deg;';
-document.getElementById('windSpeed').innerHTML = windSpeed + ' mph';
+            let currentTemp = currentWeather.main.temp;
+            let windSpeed = currentWeather.wind.speed; 
+            let windChill;
 
-if (windChill === 0) {
-document.getElementById('windChill').innerHTML = 'N/A';
-}
-else {
-    document.getElementById('windChill').innerHTML = Math.round(windChill) + '&deg;';
-}
+            if (currentTemp < 50 && windSpeed > 3) {
+                windChill = 35.74 + 0.6215 * currentTemp - 35.75 * Math.pow(windSpeed, 0.16) + 0.4275 * currentTemp * Math.pow(windSpeed, 0.16);
+            }
+
+            document.getElementById('currentTemp').innerHTML = currentTemp + '&deg;';
+            document.getElementById('windSpeed').innerHTML = windSpeed + ' mph';
+
+            if (windChill === 0) {
+                document.getElementById('windChill').innerHTML = 'N/A';
+            }
+            else {
+                document.getElementById('windChill').innerHTML = Math.round(windChill) + '&deg;';
+            }
+        }
+    );
