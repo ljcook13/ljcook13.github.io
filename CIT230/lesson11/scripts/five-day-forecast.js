@@ -1,5 +1,6 @@
 // get day of week
 var today = new Date();
+var currentDateString;
 var weekDayNumber = today.getDay()
 
 var daysOfWeek = [
@@ -43,7 +44,7 @@ fetch(apiForecastURL)
     .then(
         (forecasts) => {
             let nextDate = new Date();
-            nextDate.setDate(nextDate.getDate() + 1);
+            //nextDate.setDate(nextDate.getDate() + 1);
             let dateString = getDateString(nextDate);
             let hourString = '18:00:00';
             let counter = 1;
@@ -73,7 +74,7 @@ function getDateString(date) {
     date.getFullYear() + '-' +
 
     //get month
-    date.getMonth() + '-' +
+    (date.getMonth() + 1) + '-' +
 
     //get day
     date.getDate();
