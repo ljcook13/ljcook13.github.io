@@ -30,7 +30,7 @@ fetch(apiForecastURL)
 
                         //add temperature
                         const tempElement = document.getElementById(`temp${counter}`);
-                        tempElement.innerHTML = forecast.main.temp + '&deg;';
+                        tempElement.innerHTML = forecast.main.temp + '&deg;F';
 
                         //add day of week
                         let nextDate = new Date(forecast.dt_txt);
