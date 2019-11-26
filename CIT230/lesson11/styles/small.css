@@ -161,3 +161,6 @@ table, th, td {
     padding: 10px;
 }
 
+#events {
+    border: solid 1px black;
+}
