@@ -179,3 +179,15 @@ p {
     background-color: mediumturquoise;
     color: darkblue;
 }
+#fishHavenEvents {
+    margin: 10px;
+    border: solid 1px black;
+    background-color: mediumturquoise;
+    color: darkblue;
+}
+#sodaSpringsEvents {
+    margin: 10px;
+    border: solid 1px black;
+    background-color: mediumturquoise;
+    color: darkblue;
+}
