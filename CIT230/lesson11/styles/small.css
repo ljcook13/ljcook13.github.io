@@ -175,18 +175,21 @@ p {
 }
 #prestonEvents {
     margin: 10px;
+    font-size: 30px;
     border: solid 1px black;
     background-color: mediumturquoise;
     color: darkblue;
 }
 #fishHavenEvents {
     margin: 10px;
+    font-size: 30px;
     border: solid 1px black;
     background-color: mediumturquoise;
     color: darkblue;
 }
 #sodaSpringsEvents {
     margin: 10px;
+    font-size: 30px;
     border: solid 1px black;
     background-color: mediumturquoise;
     color: darkblue;
