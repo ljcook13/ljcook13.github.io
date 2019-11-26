@@ -18,7 +18,7 @@ fetch(eventURL)
         )
     }
 
-)
+);
 
 fetch(eventURL)
     .then(response => {
@@ -38,7 +38,7 @@ fetch(eventURL)
         )
     }
 
-)
+);
 
 fetch(eventURL)
     .then(response => {
@@ -58,5 +58,5 @@ fetch(eventURL)
         )
     }
 
-)
+);
 

@@ -26,8 +26,10 @@
         margin-top: 300px;
     }
     table {
-        padding: 0px;
-        margin-left: 350px;
+        margin-left: 125px;
+        font-size: 20px;
+        color: darkblue;
+        background-color: lightsteelblue;
     }
 }
     

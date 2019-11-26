@@ -162,5 +162,20 @@ table, th, td {
 }
 
 #events {
+    margin: 10px;
     border: solid 1px black;
+    background-color: lightsteelblue;
+}
+
+h3 {
+    text-decoration: underline;
+}
+p {
+    color: darkblue;
+}
+#prestonEvents {
+    margin: 10px;
+    border: solid 1px black;
+    background-color: mediumturquoise;
+    color: darkblue;
 }
