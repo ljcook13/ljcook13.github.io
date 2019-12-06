@@ -29,6 +29,34 @@ footer {
 	height: 100px;
 }
 
+#templesummary {
+	border: solid 1px black;
+	background-color: plum;
+	text-align: center;
+	margin: 10px;
+	color: rebeccapurple;
+}
+
+#seattle {
+	margin-top: 10px;
+}
+
+#summary {
+	border: solid 1px black;
+	background-color: cornsilk;
+	margin: 10px;
+	color: purple;
+}
+
+#calltoaction {
+	border: solid 1px black;
+	background-color: mediumorchid;
+	text-align: center;
+	width: 350px;
+	margin-left: 85px;
+	color: indigo;
+}
+
 #map {
 	display: none;
 }

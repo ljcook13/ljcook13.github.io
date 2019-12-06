@@ -4,6 +4,10 @@
 		grid-template-columns: 1fr 1fr;
 	}
 	/* id */
+	#calltoaction {
+		margin-left: 280px;
+	}
+
 	#map {
 		margin: 10px;
 		display: inline;
