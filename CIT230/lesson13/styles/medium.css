@@ -1,7 +1,18 @@
 @media only screen and (min-width: 32.5em) {
-    .navigation {
+	footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	/* id */
+	#map {
+		margin: 10px;
+		display: inline;
+	}
+	
+	/* class */
+	.navigation {
         display: flex;
-        background-color: dodgerblue;
+        background-color: plum;
 	}
 	.navigation li:first-child {
 		display: none;
@@ -11,6 +22,6 @@
 		flex: 1 1 100%;
 	}
 	.navigation li a {
-		color: whitesmoke;
+		color: rebeccapurple;
     }
 }
