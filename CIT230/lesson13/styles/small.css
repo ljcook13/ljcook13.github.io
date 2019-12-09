@@ -82,6 +82,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 }
+
 #receptions {
 	border: 1px solid black;
 	background-color: plum;
