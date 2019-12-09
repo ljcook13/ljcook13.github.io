@@ -1,9 +1,9 @@
-[
+{ "temples" : [ 
     {
         "templeName" : "San Diego California Temple",
         "address" : "7474 Charmant Dr San Diego CA 92122-5000 United States",
         "telephone" : "858-622-0991",
-        "email" : "",
+        "email" : "sandiegotemple@churchofjesuschrist.org",
         "services" : [
             "Clothing rental available",
             "Cafeteria available",
@@ -43,13 +43,14 @@
             "Tuesday, 24 December 2019",
             "Wednesday, 25 December 2019",
             "Tuesday, 31 December 2019"
-        ]
+        ],
+        "image" : "images/san diego temple.jpg"
     },
     {
         "templeName" : "San Diego California Temple",
         "address" : "7474 Charmant Dr San Diego CA 92122-5000 United States",
         "telephone" : "858-622-0991",
-        "email" : "",
+        "email" : "redlandscaliforniatemple@churchofjesuschrist.org",
         "services" : [
             "Clothing rental available",
             "Cafeteria available",
@@ -85,17 +86,18 @@
             "7:00 PM",
             "7:30 PM"
         ],
-        "closure" : [
+        "closures" : [
             "Tuesday, 24 December 2019",
             "Wednesday, 25 December 2019",
             "Tuesday, 31 December 2019"
-        ]
+        ],
+        "image" : "images/redlands.jpg"
     },
     {        
         "templeName" : "San Diego California Temple",
         "address" : "7474 Charmant Dr San Diego CA 92122-5000 United States",
         "telephone" : "858-622-0991",
-        "email" : "",
+        "email" : "lasvegasnevada@churchofjesuschrist.org",
         "services" : [
             "Clothing rental available",
             "Cafeteria available",
@@ -135,13 +137,14 @@
             "Tuesday, 24 December 2019",
             "Wednesday, 25 December 2019",
             "Tuesday, 31 December 2019"
-        ]
+        ],
+        "image" : "images/lasvegas.jpg"
     },
     {
         "templeName" : "San Diego California Temple",
         "address" : "7474 Charmant Dr San Diego CA 92122-5000 United States",
         "telephone" : "858-622-0991",
-        "email" : "",
+        "email" : "mesaarizonatemple@churchofjesuschrist.org",
         "services" : [
             "Clothing rental available",
             "Cafeteria available",
@@ -181,6 +184,7 @@
             "Tuesday, 24 December 2019",
             "Wednesday, 25 December 2019",
             "Tuesday, 31 December 2019"
-        ]
+        ],
+        "image" : "images/mesa.jpg"
     }
-]
+]}

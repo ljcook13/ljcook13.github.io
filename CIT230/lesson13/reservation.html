@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Temple Inn & Suites</title>
+    <link rel="shortcut icon" href="images/logo.png">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -24,8 +25,55 @@
             <li><a href="/CIT230/lesson13/contact.html">Contact Us</a></li>
         </ul>
     </nav>
-    <main>
-
+    <main id="reservation">
+        <form id="reservationForm" action="thanks.html" method="GET">
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" pattern="[A-Za-z ]{5,}" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="user@email.com">
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div>
+                <label for="stateCountry">State/Country:</label>
+                <input type="text" id="stateCountry" name="stateCountry" required>
+            </div>
+            <div>
+                <label for="reservationDate">Date of Reservation:</label>
+                <input type="date" id="reservationDate" name="reservationDate">
+            </div>
+            <div>
+                <label for="hotelLocation">Hotel Location:</label>
+                <input list="hotelLocation">
+                    <datalist id="hotelLocation">
+                        <option value="San Diego">
+                        <option value="Redlands">    
+                        <option value="Las Vegas">
+                        <option value="Mesa">
+                    </datalist>
+            </div>
+            <div>
+                <label for="roomType">Type of Room:</label>
+                <input list="roomType">
+                    <datalist id="roomType">
+                        <option value="2 queen size bed">
+                        <option value="1 queen size bed">
+                        <option value="Honeymoon Suite">
+                    </datalist>
+            </div>
+            <div>
+                <label for="comments" class="aligntop">Comments:</label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="Submit" value="Submit">
+            </div>
+        </form>
     </main>
     <footer>
         <div id="contact">

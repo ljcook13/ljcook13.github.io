@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Promises</title>
+    <script>
+        async function getIPFromAddress(address) {
+            const key = 'XnuAdWmZOEBTl2syIeW45AeszL2TPoBw';
+            const addr = 'http://open.mapquestapi.com/geocoding/v1/address?key=' + key + '&location=' + address;
+            const resonse = await fetch(addr);
+            if(response.status == 200) {
+                return response.json();
+            }
+            else {
+                throw new Error('Error page not found: ' + response.status);
+            }
+        }
+        getIPFromAddress("Rexburg, ID");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
