@@ -19,6 +19,10 @@ main div {
 	margin: 10px;
 }
 
+section {
+	margin: 10px;
+}
+
 h2 {
 	text-align: center;
 	color: indigo;
@@ -86,11 +90,54 @@ footer {
 #receptions {
 	border: 1px solid black;
 	background-color: plum;
+	color: indigo;
+}
+
+#receptionDiscription {	
+	display: grid;
+	grid-template-columns: 1fr;
+	text-align: center;
+	border: 1px solid black;
+	background-color: cornsilk;
+}
+
+#receptionimg1 {
+	margin: 10px;
+	height: 200px;
+	width: 300px;
+}
+
+#receptionimg2 {
+	margin: 10px;
+	height: 200px;
+	width: 300px;
+
 }
 
 #fullTimeMissionary {
 	border: 1px solid black;
 	background-color: plum;
+}
+
+#missionaryDescription {
+	border: 1px solid black;
+	background-color: cornsilk;
+	display: grid;
+	grid-template-columns: 1fr;
+	color: indigo;
+	text-align: center;
+}
+
+#fullTimeImg1 {
+	margin: 10px;
+	height: 200px;
+	width: 300px;
+}
+
+#fullTimeImg2 {
+	margin: 10px;
+	height: 200px;
+	width: 300px;
 }
 
 #map {

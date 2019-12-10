@@ -4,5 +4,15 @@
         margin-left: 425px;
     }
 
+    #receptionDiscription {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #missionaryDescription {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     /* class */
 }

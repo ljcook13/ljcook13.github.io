@@ -12,6 +12,16 @@
 		margin: 10px;
 		display: inline;
 	}
+
+	#receptionDiscription {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	#missionaryDescription {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 	
 	/* class */
 	.navigation {
