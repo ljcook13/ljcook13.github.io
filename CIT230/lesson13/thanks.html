@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Temple Inn & Suites</title>
+    <link rel="shortcut icon" href="images/logo.png">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -19,36 +20,17 @@
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a> </li>
             <li><a href="/CIT230/lesson13/index.html">Home</a></li>
             <li><a href="/CIT230/lesson13/temples.html">Temples</a></li>
-            <li><a href="/CIT230/lesson13/reservation.html">Reservations</a></li>
+            <li class="active"><a href="#">Reservations</a></li>
             <li><a href="/CIT230/lesson13/service.html">Services</a></li>
-            <li class="active"><a href="#">Contact Us</a></li>
+            <li><a href="/CIT230/lesson13/contact.html">Contact Us</a></li>
         </ul>
     </nav>
-    <main id="contact">
-        <form id="contactForm" action="thankyou.html" method="GET">
-            <div>
-                <label for="fullName">Full Name:</label>
-                <input type="text" id="fullName" name="fullName" pattern="[A-Za-z ]{5,}" required>
-            </div>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="user@email.com">
-            </div>
-            <div>
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone" required>
-            </div>
-            <div>
-                <label for="comments" class="aligntop">Comments:</label>
-                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <input type="Submit" value="Submit">
-            </div>
-        </form>
+    <main id="thankYou">
+        <h2>Thank You!</h2>
+        <p id="thanks">Thank you for filling out a reservation! You will soon get a confirmation email, contact us if any of the information is incorrect so we can fix it for you! See you soon!</p>
     </main>
     <footer>
-        <div id="contactInfo">
+        <div id="contact">
             <h3>Contact Information:</h3>
             <p>Address: 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
             <p>Email: templeinnandsuites@gmail.com</p>

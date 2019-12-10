@@ -87,6 +87,23 @@ footer {
 	flex-direction: column;
 }
 
+#contact {
+	border: 1px solid black;
+	background-color: plum;
+	margin: 10px;
+}
+
+#contactForm {
+	color: indigo;
+	border: 1px solid black;
+	margin: 10px;
+	text-align: center;
+	padding: 5px;
+	background-color: cornsilk;
+	display: flex;
+	flex-direction: column;
+}
+
 #receptions {
 	border: 1px solid black;
 	background-color: plum;
@@ -111,7 +128,20 @@ footer {
 	margin: 10px;
 	height: 200px;
 	width: 300px;
+}
 
+#thankYou {
+	text-align: center;
+	color: indigo;
+	border: 1px solid black;
+	background-color: plum;
+	margin: 10px;
+}
+
+#thanks {
+	margin: 10px;
+	border: 1px solid black;
+	background-color: cornsilk;
 }
 
 #fullTimeMissionary {
