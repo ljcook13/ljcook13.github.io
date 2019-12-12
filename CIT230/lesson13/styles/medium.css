@@ -22,6 +22,11 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
+
+	#temples {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 	
 	/* class */
 	.navigation {

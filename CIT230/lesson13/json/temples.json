@@ -1,138 +1,138 @@
 [
-    {
-    "Name" : "San Diego, California Temple",
-    "Address" : {
-        "Street" : "7474 Charmant Dr.",
-        "City" : "San Diego",
-        "State" : "CA",
-        "ZipCode" : 92122
-    },
-    "Telephone" : "(858)622-0991",
-    "Email" : "sandiegotemple@churchofjesuschrist.org",
-    "Services" : [
-        "Clothing rental available",
-        "Cafeteria available",
-        "No patron housing available",
-        "Distribution center nearby"
-    ],
-    "History" : [
-        "Announced: April 7, 1984",
-        "Groundbreaking: February 27, 1988",
-        "Dedicated: April 25, 1933"
-    ],
-    "Ordinances" : [
-        "Baptisms",
-        "Initiatories",
-        "Endowments",
-        "Sealings"
-    ],
-    "SessionSchedule" : "Every hour starting at 10AM and ending at 6PM; then every 30 minutes until 7:30PM",
-    "TempleClosureSchedule" : [
-        "December 24, 2019-December 25,2019",
-        "December 31, 2019"
-    ],
-    "Image" : "/images/san diego temple.jpg"
-    },
-    {
-        "Name" : "Redlands, California Temple",
-        "Address" : {
-            "Street" : "1761 Fifth Ave",
-            "City" : "Redlands",
-            "State" : "CA",
-            "ZipCode" : 92374
+        {
+            "name" : "San Diego California Temple",
+            "address" : {
+                "street" : "7474 Charmant Dr.",
+                "city" : "San Diego",
+                "state" : "CA",
+                "zipCode" : 92122
+            },
+            "telephone" : "(858)622-0991",
+            "email" : "sandiego@churchofjesuschrist.org",
+            "services" : [
+                "Clothing rental available",
+                "Cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history" : [
+                "Announced: April 7, 1984",
+                "Groundbreaking: February 27, 1988",
+                "Dedicated: April 25, 1933"
+            ],
+            "ordinances" : [
+                "Baptisms",
+                "Initiatories",
+                "Endowments",
+                "Sealings"
+            ],
+            "sessionschedule" : "Every hour starting at 10AM and ending at 6PM; then every 30 minutes until 7:30PM",
+            "templeclosureschedule" : [
+                "December 24, 2019-December 25,2019",
+                "December 31, 2019"
+            ],
+            "image" : "/images/san diego temple.jpg"
         },
-        "Telephone" : "(909)389-7369",
-        "Email" : "redlandstemple@churchofjesuschrist.org",
-        "Services" : [
-            "No clothing rental available",
-            "No cafeteria available",
-            "No patron housing available",
-            "Distribution center nearby"
-        ],
-        "History" : [
-            "Announced: April 21, 2007",
-            "Groundbreaking: December 1, 2001",
-            "Dedicated: September 14, 2003"
-        ],
-        "Ordinances" : [
-            "Baptism",
-            "Initiatories",
-            "Endowments",
-            "Sealings"
-        ],
-        "SessionSchedule" : "12:00PM, 1:30PM, 3:00PM, 5:00PM, 6:30PM, 8:00PM",
-        "TempleClosureSchedule" : [
-            "December 24, 2019-December 25, 2019",
-            "December 31, 2019"
-        ],
-        "Image" : "https://assets.ldscdn.org/3e/37/3e3795759ccab31fd20b9e950b1b38a578adfd0e/redlands_temple_lds.jpeg"
-    },
-    {
-        "Name" : "Las Vegas, Nevada Temple",
-        "Address" : {
-            "Street" : "827 Temple View Dr",
-            "City" : "Las Vegas",
-            "State" : "NV",
-            "ZipCode" : 89110
+        {
+            "name" : "Redlands California Temple",
+            "address" : {
+                "street" : "1761 Fifth Ave",
+                "city" : "Redlands",
+                "state" : "CA",
+                "zipCode" : 92374
+            },
+            "telephone" : "(909)389-7369",
+            "email" : "redlands@churchofjesuschrist.org",
+            "services" : [
+                "No clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history" : [
+                "Announced: April 21, 2007",
+                "Groundbreaking: December 1, 2001",
+                "Dedicated: September 14, 2003"
+            ],
+            "ordinances" : [
+                "Baptism",
+                "Initiatories",
+                "Endowments",
+                "Sealings"
+            ],
+            "sessionschedule" : "12:00PM, 1:30PM, 3:00PM, 5:00PM, 6:30PM, 8:00PM",
+            "templeclosureshedule" : [
+                "December 24, 2019-December 25, 2019",
+                "December 31, 2019"
+            ],
+            "image" : "https://assets.ldscdn.org/3e/37/3e3795759ccab31fd20b9e950b1b38a578adfd0e/redlands_temple_lds.jpeg"
         },
-        "Telephone" : "(702)452-5011",
-        "Email" : "lasvegastemple@churchofjesuschrist.org",
-        "Services" : [
-            "Clothing rental available",
-            "Cafeteria available",
-            "No patron housing available",
-            "Distribution center nearby"
-        ],
-        "History" : [
-            "Announced: April 7, 1984",
-            "Groundbreaking: November 30, 1985",
-            "Dedicated: December 16, 1989"
-        ],
-        "Ordinances" : [
-            "Baptism",
-            "Initiatories",
-            "Endowments",
-            "Sealings"
-        ],
-        "SessionSchedule" : "Every 30 minutes starting at 11AM and the last session starts at 7:30PM",
-        "TempleClosureSchedule" : [
-            "December 24, 2019-December 25, 2019",
-            "December 31, 2019"
-        ],
-        "Image" : "https://assets.ldscdn.org/a2/87/a2876cf93e9b9908d223e09f4be65ae23cead8d4/las_vegas_temple_lds.jpg"
-    },
-    {
-        "Name" : "Gilbert, Arizona Temple",
-        "Address" : {
-            "Street" : "3301 S Greenfield Rd",
-            "City" : "Gilbert",
-            "State" : "AZ",
-            "ZipCode" : 85297
+        {
+            "name" : "Las Vegas Nevada Temple",
+            "address" : {
+                "street" : "827 Temple View Dr",
+                "city" : "Las Vegas",
+                "state" : "NV",
+                "zipCode" : 89110
+            },
+            "telephone" : "(702)452-5011",
+            "email" : "lasvegas@churchofjesuschrist.org",
+            "services" : [
+                "Clothing rental available",
+                "Cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history" : [
+                "Announced: April 7, 1984",
+                "Groundbreaking: November 30, 1985",
+                "Dedicated: December 16, 1989"
+            ],
+            "ordinances" : [
+                "Baptism",
+                "Initiatories",
+                "Endowments",
+                "Sealings"
+            ],
+            "sessionschedule" : "Every 30 minutes starting at 11AM and the last session starts at 7:30PM",
+            "templeclosureschedule" : [
+                "December 24, 2019-December 25, 2019",
+                "December 31, 2019"
+            ],
+            "image" : "https://assets.ldscdn.org/a2/87/a2876cf93e9b9908d223e09f4be65ae23cead8d4/las_vegas_temple_lds.jpg"
         },
-        "Telephone" : "(480)822-5000",
-        "Email" : "gilberttemple@churchofjesuschrist.org",
-        "Services" : [
-            "Clothing rental available",
-            "No cafeteria available",
-            "No patron housing available",
-            "Distribution center nearby"
-        ],
-        "History" : [
-            "Announced: April 10, 2008",
-            "Groundbreaking: November 13, 2010",
-            "Dedicated: March 2, 2014"
-        ],
-        "Ordinances" : [
-            "Baptism",
-            "Initiatories",
-            "Endowments",
-            "Sealings"
-        ],
-        "SessionSchedule" : "Every 45 minutes staring at 12:15PM and the last session at 7:45PM",
-        "TempleClosureSchedule" : [
-            "December 24, 2019-December 25, 2019",
-            "December 31, 2019"
-        ],
-        "Image" : "https://assets.ldscdn.org/1a/9b/1a9b4d17fab94f3ddfc0504cbe9bfb16ef2b3186/gilbert_arizona_temple.jpeg"
-    }
-]
+        {
+            "name" : "Gilbert Arizona Temple",
+            "address" : {
+                "street" : "3301 S Greenfield Rd",
+                "city" : "Gilbert",
+                "state" : "AZ",
+                "zipCode" : 85297
+            },
+            "telephone" : "(480)822-5000",
+            "email" : "gilbert@churchofjesuschrist.org",
+            "services" : [
+                "Clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history" : [
+                "Announced: April 10, 2008",
+                "Groundbreaking: November 13, 2010",
+                "Dedicated: March 2, 2014"
+            ],
+            "ordinances" : [
+                "Baptism",
+                "Initiatories",
+                "Endowments",
+                "Sealings"
+            ],
+            "sessionschedule" : "Every 45 minutes staring at 12:15PM and the last session at 7:45PM",
+            "templeclosureschedule" : [
+                "December 24, 2019-December 25, 2019",
+                "December 31, 2019"
+            ],
+            "image" : "https://assets.ldscdn.org/1a/9b/1a9b4d17fab94f3ddfc0504cbe9bfb16ef2b3186/gilbert_arizona_temple.jpeg"
+        }
+    ]
